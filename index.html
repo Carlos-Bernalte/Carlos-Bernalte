@@ -1,47 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Portfolio Carlos Bernalte</title>
+        <title>Carlos Bernalte</title>
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e071f39ef9.js" crossorigin="anonymous"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
-        <!--Yo-->
-        <div>
-            <h2>Carlos Bernalte</h2>
-            <h3>#programador</h3>
-            <h3>#hacking ético</h3>
-        </div>
-        <!--Sobre mí-->
-        <div>
-            <h2>Sobre mí</h2>
-            <img src="images/foto.jpeg" alt="Foto mia">
-            <p>Soy <strong>Carlos Bernalte</strong> , ingeniero informático de profesión y apasionado de la <span>tecnología y ciberseguridad</span>. Desde siempre he tenido una afición por conoces como funciona la tecnología que nos rodea y el como recrearla.</p>
-             <p>Me defino como una persona creativa y curiosa por todo aquello que me atraiga.</p>
-        </div>  
-        <!--Portfolio-->
-        <div>
-            <h2>Portfolio</h2>
-            <h3>Una mirada mas allá del texto</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">Ejemplos de Portfolio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Musica</td>
-                        <td>Producción</td>
-                        <td>Web</td>
-                        <td>diseños</td>
-                    </tr>
-                    <tr>
-                        <td>Musica</td>
-                        <td>BSOs</td>
-                        <td>Apps</td>
-                        <td>Cartel</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div> 
+    <body >
+        <!--Menu de navegación-->
+        <nav>
+            <ul>
+                <li>Sobre mi</li>
+                <li>Portfolio</li>
+                <li>Experiencia</li>
+                <li>Contactar</li>
+            </ul>
+        </nav>
+        <article>
+            <!--Bloque de Inicio-->
+            <section id="inicio">
+                <h2>Carlos Bernalte</h2>
+                <h3 class="hastag">#programador</h3>
+                <h3 class="hastag">#hacking ético</h3>
+                <ul id="redessociales">
+                    <li><a href="https://github.com/Carlos-Bernalte/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/carlos_bernalte" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/carlos-bernalte/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                
+            </section>
+            <!--Sobre mí-->
+            <section id="sobremi">
+                <h2>Sobre mí</h2>
+                <img src="images/yo.jpeg" alt="Carlos Bernalte" height="250">
+                <p>Soy <strong>Carlos Bernalte</strong> , ingeniero informático de profesión y apasionado de la <span>tecnología y ciberseguridad</span>. Desde siempre he tenido una afición por conoces como funciona la tecnología que nos rodea y el como recrearla.</p>
+                <p>Me defino como una persona creativa y curiosa por todo aquello que me atraiga.</p>
+            </section>
+            <!--Portfolio-->
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque corporis veniam delectus distinctio voluptatem, sit rerum ratione in tenetur repudiandae odio modi nobis quibusdam corrupti facere! Eum ab cum tenetur.</p>
+            </section> 
+            <!--Esperiencia-->
+            <section id="experiencia">
+                <h2>Experiencia & Skills</h2>
+                <h3>Una mirada mas allá del texto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veritatis quos praesentium? Quasi dolores non architecto? Rem velit, culpa esse, fuga natus consectetur fugit, dolores quae voluptate ducimus commodi alias?</p>
+            </section>
+        </article>
+        <!--Footer-->
+        <footer></footer>
     </body>
 </html>
